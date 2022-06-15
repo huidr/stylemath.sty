@@ -1,6 +1,6 @@
 ## stylemath.sty
 
-[stylemath.sty](https://github.com/ronhuidrom/blob/main/stylemath.sty) is a LaTeX Style (.sty) file tailor-made for quick math typesetting.
+[stylemath.sty](https://github.com/ronhuidrom/stylemath/blob/main/stylemath.sty) is a LaTeX Style (.sty) file tailor-made for quick math typesetting.
 
 ### Features
 
