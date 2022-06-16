@@ -26,8 +26,8 @@ It also comes with shorthands for commonly used sets, for example, simply typing
 |Shorthand | Description |
 |--------- | ----------- |
 |\dd {s}{t} | $\dfrac{ds}{dt}$ |
-|\ddx (x^2-1) | $\dfrac{d} dx (x^2-1)$ |
-|\ddt (t^2-1) | $\dfrac{d} dt (t^2-1)$ |
+|\ddx (x^2-1) | $\dfrac{d} {dx} (x^2-1)$ |
+|\ddt (t^2-1) | $\dfrac{d} {dt} (t^2-1)$ |
 |\pp {s}{t} | $\frac{\partial s}{\partial t}$ |
 |\ppx (xy+z) | $\frac{\partial}{\partial x} (xy+z)$ |
 |\ppy (xy+z) | $\frac{\partial}{\partial y} (xy+z)$ |
