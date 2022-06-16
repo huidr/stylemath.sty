@@ -2,6 +2,8 @@
 \ProvidesPackage{stylemath}
 %[2022/02/09 v0.1 A LaTeX package tailor-made for quick math typesetting]
 
+% PACKAGES ---------------------------------------------------------------
+
 %\RequirePackage[margin=1in]{geometry}
 \RequirePackage[bookmarksdepth=4]{hyperref}
 \RequirePackage{pdfpages}
@@ -14,6 +16,9 @@
 \RequirePackage{amssymb}
 \RequirePackage{amsthm}
 \RequirePackage{amsfonts}
+\RequirePackage{mathrsfs}
+
+% THEOREM STYLES ---------------------------------------------------------
 
 %\swapnumbers
 \theoremstyle{plain}
@@ -37,6 +42,53 @@
 \newtheorem{problem}[theorem]{Problem}
 \newtheorem*{solution}{Solution}
 
+% MATH COMMANDS ----------------------------------------------------------
+
+% ordinary derivatives
+\newcommand{\dd}[2]{\dfrac{d#1}{d#2}}
+\newcommand{\ddx}{\dd {}x}
+\newcommand{\ddt}{\dd {}t}
+
+% partial derivatives
+\newcommand{\pp}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\ppx}{\pp{}x}
+\newcommand{\ppy}{\pp{}y}
+\newcommand{\ppz}{\pp{}z}
+
+% for using in integrals, like \int x\dx
+\newcommand{\dx}{\, dx}
+\newcommand{\dy}{\, dy}
+\newcommand{\dz}{\, dz}
+\newcommand{\dt}{\, dt}
+\newcommand{\du}{\, du}
+\newcommand{\dv}{\, dv}
+
+% image, identity functions
+\newcommand{\im}{\ensuremath{\mathop{\rm im}\nolimits}}
+\newcommand{\id}{\ensuremath{\mathop{\rm id}\nolimits}}
+
+% inverse, define, sends, etc
+\newcommand{\inv}{\ensuremath{^{-1}}}
+\newcommand{\define}{\ensuremath{\coloneqq}}
+\newcommand{\sends}{\ensuremath{\rightsquigarrow}}
+\newcommand{\notdiv}{\ensuremath{\nmid}}
+
+% commonly used sets
+\newcommand{\R}{\ensuremath{\mathbb{R}} }
+\newcommand{\C}{\ensuremath{\mathbb{C}} }
+\newcommand{\F}{\ensuremath{\mathbb{F}} }
+\newcommand{\N}{\ensuremath{\mathbb{N}} }
+\newcommand{\Z}{\ensuremath{\mathbb{Z}} }
+\newcommand{\Q}{\ensuremath{\mathbb{Q}} }
+
+% commonly used phrases
+\newcommand{\Wlog}{Without loss of generality}
+\newcommand{\wlog}{without loss of generality}
+\newcommand{\wrt}{with respect to}
+
+% OTHER COMMANDS ----------------------------------------------------------
+
+
 \hypersetup{
 		colorlinks=true,
 		linkcolor=blue,
@@ -47,18 +99,6 @@
 
 \newcommand{\tab}{\hspace*{2em}}
 
-\newcommand{\R}{\ensuremath{\mathbb{R}} }
-\newcommand{\C}{\ensuremath{\mathbb{C}} }
-\newcommand{\F}{\ensuremath{\mathbb{F}} }
-\newcommand{\N}{\ensuremath{\mathbb{N}} }
-\newcommand{\Z}{\ensuremath{\mathbb{Z}} }
-\newcommand{\Q}{\ensuremath{\mathbb{Q}} }
-
-\newcommand{\sends}{\ensuremath{\rightsquigarrow}}
-
-\newcommand{\Wlog}{Without loss of generality}
-\newcommand{\wrt}{with respect to}
-\newcommand{\st}{such that}
 
 \newcommand{\reduce}{\vspace*{-1em}}
 
