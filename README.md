@@ -21,20 +21,20 @@ It also comes with shorthands for commonly used sets, for example, simply typing
 | \Z       | $\mathbb{Z}$ |
 | \Q       | $\mathbb{Q}$ |
 
-### Ordinary and Partial Derivatives
+#### Ordinary and Partial Derivatives
 
 |Shorthand | Description |
 |--------- | ----------- |
-|\dd {s}{t} | $\dfrac{ds}{dt}$ |
-|\ddx (x^2-1) | $\dfrac{d} {dx} (x^2-1)$ |
-|\ddt (t^2-1) | $\dfrac{d} {dt} (t^2-1)$ |
+|\dd {s}{t} | $\dfrac{ds}{dt} |
+|\ddx (x^2-1) | $\dfrac{} x (x^2-1)$ |
+|\ddt (t^2-1) | $\dfrac{} t (t^2-1)$ |
 |\pp {s}{t} | $\frac{\partial s}{\partial t}$ |
 |\ppx (xy+z) | $\frac{\partial}{\partial x} (xy+z)$ |
 |\ppy (xy+z) | $\frac{\partial}{\partial y} (xy+z)$ |
 |\ppz (xy+z) | $\frac{\partial}{\partial z} (xy+z)$ |
 |\int x\dx   | $\int x \, dx$ |
 
-### Special Symbols
+#### Special Symbols
 
 |Shorthand | Description |
 |--------- | ----------  |
